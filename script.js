@@ -21,3 +21,7 @@ let example5 = document.querySelector("p:nth-child(4)");
 
 console.log(example5);
 example5.textContent = "IT-Akadem";
+
+
+
+let example6 = document.querySelector ("article p");
