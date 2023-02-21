@@ -28,8 +28,12 @@ for (let i = 0; i < example6.length; i++) {
   paragraph.textContent += "👩‍💻🍕🍟";
 }
 
-let example7 = document.createElement ("div");
-console.log(example7.textContent = " Lorem ipsum 🐼")
-document.body.append(example7);
+let example7 = document.createElement("p");
+console.log((example7.textContent = " Lorem ipsum 🐼"));
+document.body.append(example7); // prepend вставляет в начало
 example7.style.fontSize = "22px";
 example7.style.backgroundColor = "gray";
+
+let example8 = document.createElement("ul");
+console.log(example8);
+document.body.append(example8);
