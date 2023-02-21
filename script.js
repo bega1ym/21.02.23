@@ -25,3 +25,7 @@ example5.textContent = "IT-Akadem";
 
 
 let example6 = document.querySelector ("article p");
+for(let i = 0; i< example6.clientHeight; i++){
+  let paragraph = example6[i];
+  paragraph.textContent +="❤";
+}
